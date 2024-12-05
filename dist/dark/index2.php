@@ -9,17 +9,39 @@ include("sidebar.php");?>
               <!-- ----------------------------------------- -->
               <!-- Welcome Card -->
               <!-- ----------------------------------------- -->
-              <div class="card text-white bg-primary-gt overflow-hidden">
-                <div class="card-body position-relative z-1">
-                  <!-- <span class="badge badge-custom-dark d-inline-flex align-items-center gap-2 fs-3"> -->
-                    <!-- <iconify-icon icon="solar:check-circle-outline" class="fs-5"></iconify-icon> -->
-                    <!-- <span class="fw-normal">This month <span class="fw-semibold">+15%
-                        Profit</span> -->
-                    <!-- </span> -->
-                  </span>
-                  <h4 class="text-white fw-normal mt-5 pt-7 mb-1">Hey, <span class="fw-semibold">Shraddhesh Acharya</span>
-                  </h4>
-                  <h6 class="opacity-75 fw-normal text-white mb-0">Review your reports</span>
+              <div class="card text-bg-primary" >
+                <div class="card-body" style="background-color: #1a2537;">
+                  <div class="row">
+                    <div class="col-sm-7">
+                      <div class="d-flex flex-column h-100">
+                        <div class="hstack gap-3">
+                          <!-- <span class="d-flex align-items-center justify-content-center round-48 bg-white rounded flex-shrink-0">
+                            <iconify-icon icon="solar:course-up-outline" class="fs-7 text-muted"></iconify-icon>
+                          </span> -->
+                            <div class="col-sm-5 text-center text-md-end">
+                              <img src="../assets/images/logos/favicon1.png" alt="Logo" height="50%" width="400" />
+                            </div>
+                        </div>
+                        <!-- <div class="mt-4 mt-sm-auto">
+                          <div class="row">
+                            <div class="col-6">
+                              <span class="opacity-75">Budget</span>
+                              <h4 class="mb-0 text-white mt-1 text-nowrap fs-13 fw-bolder">
+                                10M</h4>
+                            </div>
+                            <div class="col-6 border-start border-light" style="--bs-border-opacity: .15;">
+                              <span class="opacity-75">Expense</span>
+                              <h4 class="mb-0 text-white mt-1 text-nowrap fs-13 fw-bolder">
+                                2450</h4>
+                            </div>
+                          </div>
+                        </div> -->
+                      </div>
+                    </div>
+
+                  </div>
+
+
                 </div>
               </div>
             </div>
