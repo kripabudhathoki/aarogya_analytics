@@ -298,36 +298,38 @@
                         <label for="customRadio16" class="form-label">How often do you exercise? </label>
                         <div class="c-inputs-stacked">
                           <div class="form-check">
-                            <input type="radio" id="customRadio16" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio16" name="excercise" class="form-check-input" />
                             <label class="form-check-label" for="customRadio16">Never</label>
                           </div>
                           <div class="form-check">
-                            <input type="radio" id="customRadio17" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio17" name="excercise" class="form-check-input" />
                             <label class="form-check-label" for="customRadio17">1-2 times per week</label>
                           </div>
                           <div class="form-check">
-                            <input type="radio" id="customRadio17" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio17" name="excercise" class="form-check-input" />
                             <label class="form-check-label" for="customRadio17">3-5 times per week</label>
                           </div>
                           <div class="form-check">
-                            <input type="radio" id="customRadio17" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio17" name="excercise" class="form-check-input" />
                             <label class="form-check-label" for="customRadio17">Daily</label>
                           </div>
                         </div>
                       </div>
+                    </div> 
+                    <div class="col-md-6">  
                       <div class="mb-3">
                         <label for="customRadio16" class="form-label">Do you smoke or use tobacco? </label>
                         <div class="c-inputs-stacked">
                           <div class="form-check">
-                            <input type="radio" id="customRadio16" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio16" name="smokeTobacco" class="form-check-input" />
                             <label class="form-check-label" for="customRadio16">Never</label>
                           </div>
                           <div class="form-check">
-                            <input type="radio" id="customRadio17" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio17" name="smokeTobacco" class="form-check-input" />
                             <label class="form-check-label" for="customRadio17">Occasionally</label>
                           </div>
                           <div class="form-check">
-                            <input type="radio" id="customRadio17" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio17" name="smokeTobacco" class="form-check-input" />
                             <label class="form-check-label" for="customRadio17">Regularly</label>
                           </div>
                         </div>
@@ -338,40 +340,43 @@
                         <label for="customRadio16" class="form-label">How often do you consume alcohol? </label>
                         <div class="c-inputs-stacked">
                           <div class="form-check">
-                            <input type="radio" id="customRadio16" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio16" name="alcohol" class="form-check-input" />
                             <label class="form-check-label" for="customRadio16">Never</label>
                           </div>
                           <div class="form-check">
-                            <input type="radio" id="customRadio17" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio17" name="alcohol" class="form-check-input" />
                             <label class="form-check-label" for="customRadio17">Occasionally</label>
                           </div>
                           <div class="form-check">
-                            <input type="radio" id="customRadio17" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio17" name="alcohol" class="form-check-input" />
                             <label class="form-check-label" for="customRadio17">Regularly</label>
                           </div>
                         </div>
                       </div>
+                    </div>
+                    <div class="col-md-6">
                       <div class="mb-3">
                         <label for="customRadio16" class="form-label">How many hours of sleep do you get daily? </label>
                         <div class="c-inputs-stacked">
                           <div class="form-check">
-                            <input type="radio" id="customRadio16" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio16" name="sleep" class="form-check-input" />
                             <label class="form-check-label" for="customRadio16">Less then 4 hours</label>
                           </div>
                           <div class="form-check">
-                            <input type="radio" id="customRadio17" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio17" name="sleep" class="form-check-input" />
                             <label class="form-check-label" for="customRadio17">4-6 hours</label>
                           </div>
                           <div class="form-check">
-                            <input type="radio" id="customRadio17" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio17" name="sleep" class="form-check-input" />
                             <label class="form-check-label" for="customRadio17">6-8 hours</label>
                           </div>
                           <div class="form-check">
-                            <input type="radio" id="customRadio17" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio17" name="sleep" class="form-check-input" />
                             <label class="form-check-label" for="customRadio17">More than 8 hours</label>
                           </div>
                         </div>
                       </div>
+
                     </div>
                     <div class="col-md-12">
                       <div class="mb-3">
@@ -386,36 +391,63 @@
                 <section>
                   <div class="row">
                     <div class="col-md-6">
-                    <div class="mb-3">
+                      <div class="mb-3">
                         <label for="customRadio16" class="form-label">Do any family members have the following conditions? </label>
                         <div class="c-inputs-stacked">
                           <div class="form-check">
-                            <input type="radio" id="customRadio16" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio16" name="diabetesCondition" class="form-check-input" />
                             <label class="form-check-label" for="customRadio16">Diabetes</label>
                           </div>
                           <div class="form-check">
-                            <input type="radio" id="customRadio17" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio17" name="hypertensionCondition" class="form-check-input" />
                             <label class="form-check-label" for="customRadio17">Hypertension</label>
                           </div>
                           <div class="form-check">
-                            <input type="radio" id="customRadio17" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio17" name="heartCondition" class="form-check-input" />
                             <label class="form-check-label" for="customRadio17">Heart disease</label>
                           </div>
                           <div class="form-check">
-                            <input type="radio" id="customRadio17" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio17" name="cancerCondition" class="form-check-input" />
                             <label class="form-check-label" for="customRadio17">Cancer</label>
                           </div>
                           <div class="form-check">
-                            <input type="radio" id="customRadio17" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio17" name="mentalCondition" class="form-check-input" />
                             <label class="form-check-label" for="customRadio17">Mental Health disorders</label>
                           </div>
                           <div class="form-check">
-                            <input type="radio" id="customRadio17" name="customRadio" class="form-check-input" />
+                            <input type="radio" id="customRadio17" name="otherCondition" class="form-check-input" />
                             <label class="form-check-label" for="customRadio17">Others:</label>
+                            <textarea name="otherconditionDescription" id="otherconditionDescription" rows="1" class="form-control"></textarea>
                           </div>
                         </div>
                       </div>
-                    </div>      
+                    </div> 
+                    
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label for="customRadio16" class="form-label">Vaccination History: </label>
+                        <div class="c-inputs-stacked">
+                          <div class="form-check">
+                            <input type="radio" id="customRadio16" name="hepatitisVaccine" class="form-check-input" />
+                            <label class="form-check-label" for="customRadio16">Hepatitis B</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="radio" id="customRadio17" name="covidVaccine" class="form-check-input" />
+                            <label class="form-check-label" for="customRadio17">COVID-19</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="radio" id="customRadio17" name="tetanusVaccine" class="form-check-input" />
+                            <label class="form-check-label" for="customRadio17">Tetanus</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="radio" id="customRadio17" name="otherVaccine" class="form-check-input" />
+                            <label class="form-check-label" for="customRadio17">Other:</label>
+                            <textarea name="othervaccineDescription" id="othervaccineDescription" rows="1" class="form-control"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">     
                       <div class="mb-3">
                         <label for="customRadio16" class="form-label">Do you visit s doctor for regular checkups? </label>
                         <div class="c-inputs-stacked">
@@ -433,38 +465,17 @@
                           </div>
                         </div>
                       </div>
-                      <div class="mb-3">
-                        <label for="customRadio16" class="form-label">Vaccination History: </label>
-                        <div class="c-inputs-stacked">
-                          <div class="form-check">
-                            <input type="radio" id="customRadio16" name="customRadio" class="form-check-input" />
-                            <label class="form-check-label" for="customRadio16">Hepatitis B</label>
-                          </div>
-                          <div class="form-check">
-                            <input type="radio" id="customRadio17" name="customRadio" class="form-check-input" />
-                            <label class="form-check-label" for="customRadio17">COVID-19</label>
-                          </div>
-                          <div class="form-check">
-                            <input type="radio" id="customRadio17" name="customRadio" class="form-check-input" />
-                            <label class="form-check-label" for="customRadio17">Tetanus</label>
-                          </div>
-                          <div class="form-check">
-                            <input type="radio" id="customRadio17" name="customRadio" class="form-check-input" />
-                            <label class="form-check-label" for="customRadio17">Other:</label>
-                          </div>
-                        </div>
-                      </div>
                     </div>
-                    <div class="col-md-6">
+                  <div class="col-md-6">
                     <div class="mb-3">
-                  <label for="formFileMultiple" class="form-label">Attach a Document</label>
-                  <input class="form-control" type="file" id="formFileMultiple" multiple />
-                </div>
-                <div class="mb-3">
-                  <label for="formFileMultiple" class="form-label">Attach a Document</label>
-                  <input class="form-control" type="file" id="formFileMultiple" multiple />
-                </div>
+                      <label for="formFileMultiple" class="form-label">Attach a Document</label>
+                      <input class="form-control" type="file" id="formFileMultiple" multiple />
                     </div>
+                    <div class="mb-3">
+                      <label for="formFileMultiple" class="form-label">Attach a Document</label>
+                      <input class="form-control" type="file" id="formFileMultiple" multiple />
+                    </div>
+                  </div>
                   </div>
                 </section>
               </form>
